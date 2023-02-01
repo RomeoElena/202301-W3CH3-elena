@@ -2,6 +2,8 @@
 import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
 import { Menu } from './components/menu/menu';
+import { Tasks } from './components/tasks/tasks';
+import { TASKS } from './mocks/tasks';
 import './index.scss';
 
 export type InitMenu = {
@@ -9,13 +11,14 @@ export type InitMenu = {
   path: string;
 };
 
-const InitMenu: InitMenu[] = [
+const InitMenus: InitMenu[] = [
   { label: 'Inicio', path: '/home' },
-  { label: 'Pet', path: '/tasks' },
-  { label: 'Nosotros', path: '/about' },
+  { label: 'Pets', path: '/tasks' },
+  { label: 'Sobre nosotros', path: '/about' },
 ];
 
 console.log('Work in progress');
 new Header('#root');
-new Menu('.header', InitMenu);
+new Menu('.header', InitMenus);
 new Footer('#root');
+new Tasks('main', TASK);
