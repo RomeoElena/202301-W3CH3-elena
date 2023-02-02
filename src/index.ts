@@ -3,8 +3,8 @@ import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
 import { Menu } from './components/menu/menu';
 import { Tasks } from './components/tasks/tasks';
-import { TASK } from './mocks/tasks';
 import './index.scss';
+import { TASK } from './mocks/tasks';
 
 export type InitMenu = {
   label: string;
