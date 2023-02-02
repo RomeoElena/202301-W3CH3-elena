@@ -1,4 +1,4 @@
-import { Pet, PetStructure } from '../models/pet';
+import { Task, PetStructure } from '../models/task';
 
 export const TASK: PetStructure[] = [
   { id: '164983', name: 'Mellow', isAdopted: false, owner: 'Pepe' },

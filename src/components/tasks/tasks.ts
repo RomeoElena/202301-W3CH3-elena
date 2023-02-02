@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { PetStructure } from '../../models/pet';
+import { PetStructure } from '../../models/task';
 import { Component } from '../component/component';
 import './tasks.scss';
 
