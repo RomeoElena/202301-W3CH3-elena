@@ -3,7 +3,7 @@ import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
 import { Menu } from './components/menu/menu';
 import { Tasks } from './components/tasks/tasks';
-import { TASKS } from './mocks/tasks';
+import { TASK } from './mocks/tasks';
 import './index.scss';
 
 export type InitMenu = {
